@@ -1,0 +1,33 @@
+{
+  "name": "lost-in-the-books",
+  "version": "1.0.0",
+  "description": "project-3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eli-33/Lost-In-The-Books.git"
+  },
+  "keywords": [
+    "book",
+    "searching",
+    "saving"
+  ],
+  "author": "Elahe Jamshidi Araghi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eli-33/Lost-In-The-Books/issues"
+  },
+  "homepage": "https://github.com/Eli-33/Lost-In-The-Books#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "prettier": "^2.2.1"
+  }
+}
