@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Sidebar from "../../Sidebar/Sidebar"
-import DasboardNewsCard from "../../DasboardNewsCard/DasboardNewsCard"
+import SavedBooks from "../../SavedBooks/SavedBooks"
 import "./style.css"
 
 class Roster extends Component {
@@ -9,7 +9,7 @@ class Roster extends Component {
             <div className="container-fluid h-100 p-0 m-0">
                 <Sidebar />
                 <div className="content">
-                    <DasboardNewsCard />
+                    <SavedBooks />
                 </div>
             </div>
         );

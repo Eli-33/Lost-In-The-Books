@@ -8,11 +8,11 @@ function Sidebar() {
                 <aside>
                         <ul className="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
 
-                                <Link to="/" className="sidebar-brand d-flex align-items-center justify-content-center">
+                                <Link  to="/" className="sidebar-brand d-flex align-items-center justify-content-center">
                                         <div className="sidebar-brand-icon rotate-n-15">
                                                 <i className="far fa-user-circle" />
                                         </div>
-                                        <div className="sidebar-brand-text mx-3">Company</div>
+                                        <div className="sidebar-brand-text mx-3">Lost-In-The-Books</div>
                                 </Link>
 
                                 {/* Divider */}
@@ -22,7 +22,7 @@ function Sidebar() {
                                 <Item active={''}
                                         href={"/dashboard"}
                                         icon={<i className="fas fa-folder-minus" />}
-                                        text={<span>Dashboard</span>} />
+                                        text={<span>Library</span>} />
 
                                 {/* Divider */}
                                 <hr className="sidebar-divider d-none d-md-block" />
@@ -42,7 +42,7 @@ function Sidebar() {
                                 <Item active={''}
                                         href={"/other"}
                                         icon={<i className="fas fa-calendar-week" />}
-                                        text={<span>Other</span>} />
+                                        text={<span>Your Bookshelf</span>} />
 
                                 {/* Divider */}
                                 <hr className="sidebar-divider d-none d-md-block" />

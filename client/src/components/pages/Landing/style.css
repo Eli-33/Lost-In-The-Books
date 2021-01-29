@@ -1,5 +1,5 @@
 .backgroundImg {
-    background-image: url(../../assets/images/landingpagebackgroundimg.jpg);
+    background-image: url(../../assets/images/book.jpg);
     background-size:     cover;                  
     background-repeat:   no-repeat;
     background-position: center center;
@@ -7,16 +7,16 @@
 
 .landingJumbo {
     width: 60%;
-    background-color: rgba(204, 204, 204, 0.6) !important;
+    background-color: rgba(255, 255, 255, 0.507) !important;
 }
 
 .cardBackground{
-    background-color: rgb(231, 248, 255)!important;
+    background-color: rgb(253, 250, 213)!important;
 }
 
 
 .jumboText {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .companyName {
